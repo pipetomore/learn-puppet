@@ -1,6 +1,7 @@
 class base {
   include ssh
   include sudo
+  include puppet
 }
 
 node 'demo1' {

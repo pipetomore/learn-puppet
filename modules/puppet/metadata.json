@@ -1,0 +1,17 @@
+{
+  "name": "demo-puppet",
+  "version": "0.1.0",
+  "author": "demo",
+  "summary": "demo",
+  "license": "Apache 2.0",
+  "source": "demo",
+  "project_page": "demo",
+  "issues_url": "demo",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_range": ">= 1.0.0"
+    }
+  ]
+}
+
