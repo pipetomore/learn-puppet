@@ -1,0 +1,17 @@
+{
+  "name": "demo-postfix",
+  "version": "0.1.0",
+  "author": "demo",
+  "summary": "Demo module for managing postfix",
+  "license": "Apache 2.0",
+  "source": "none",
+  "project_page": "n/a",
+  "issues_url": "n/a",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_range": ">= 1.0.0"
+    }
+  ]
+}
+

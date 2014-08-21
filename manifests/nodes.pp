@@ -9,5 +9,6 @@ node 'demo1' {
 
 
 node 'demo2' {
-  include base  
+  include base
+  include postfix  
 }
