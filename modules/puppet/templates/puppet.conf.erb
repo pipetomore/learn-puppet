@@ -5,10 +5,10 @@
   reports  =  log,store
   
 [master]
-  certname = <%= @puppetmaster %>
+  certname = <%= @puppetserver %>
   
 [agent]
   pluginsync = false
   report     = true
-  server     = <%= @puppetmaster %>
+  server     = <%= @puppetserver %>
   

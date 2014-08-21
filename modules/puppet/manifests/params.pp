@@ -1,3 +1,3 @@
 class puppet::params {
-  $puppetmaster = hiera('puppetmaster')   
+  $puppetserver = hiera('puppetmaster')   
 }
