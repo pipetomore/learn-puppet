@@ -2,6 +2,7 @@
   "name": "demo-postfix",
   "version": "0.1.0",
   "author": "demo",
+  "dependencies": [],
   "summary": "Demo module for managing postfix",
   "license": "Apache 2.0",
   "source": "none",
