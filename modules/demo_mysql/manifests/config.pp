@@ -4,7 +4,7 @@ class demo_mysql::config (
 ){
   file { '/etc/mysql/my.cnf':
     ensure => present,
-    source => 'puppet:///modules/mysql/my.cnf',
+    source => 'puppet:///modules/demo_mysql/my.cnf',
     owner => $user,
     group => $group,
     require => Class['demo_mysql::install'],
