@@ -10,5 +10,6 @@ node 'demo1' {
 
 node 'demo2' {
   include base
-  include postfix  
+  include postfix
+  include demo_mysql  
 }
