@@ -7,6 +7,6 @@ class demo_mysql::service (
     hasstatus => true,
     hasrestart => true,
     enable => $enabled,
-    require => Class['mysql::config'],
+    require => Class['demo_mysql::config'],
   }
 } 

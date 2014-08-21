@@ -7,8 +7,8 @@ class demo_mysql::config (
     source => 'puppet:///modules/mysql/my.cnf',
     owner => $user,
     group => $group,
-    require => Class['mysql::install'],
-    notify => Class['mysql::service'],
+    require => Class['demo_mysql::install'],
+    notify => Class['demo_mysql::service'],
   }
   file { '/var/lib/mysql':
     group => $user,
