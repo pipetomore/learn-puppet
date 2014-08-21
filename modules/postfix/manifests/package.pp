@@ -1,5 +1,5 @@
 class postfix::package {
-  package {["postfix", "mailx"]:
+  package {["postfix", "mailutils"]:
     ensure  => present,
   }
 }
