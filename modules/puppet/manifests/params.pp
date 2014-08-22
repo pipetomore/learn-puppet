@@ -1,3 +1,4 @@
 class puppet::params {
-  $puppetserver = hiera('puppetmaster')   
+  $puppetserver = hiera('puppetmaster')
+  notice("Puppet Master is set to ${puppetserver}")   
 }
