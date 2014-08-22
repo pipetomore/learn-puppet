@@ -5,7 +5,7 @@
   reports  =  log,store
   
 [master]
-  certname = <%= @puppetserver %>
+  certname = <%= @puppet::params::puppetserver %>
   
 [agent]
   pluginsync = false
